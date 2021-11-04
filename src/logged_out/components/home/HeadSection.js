@@ -116,15 +116,14 @@ function HeadSection(props) {
                     <Box
                       display="flex"
                       flexDirection="column"
-                      justifyContent="space-between"
+                      justifyContent=" "
                       height="100%"
                     >
-                      <Box mb={4}>
+                      <Box mb={2}>
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          Free Template for building a SaaS app using
-                          Material-UI
+                          Do what you love and earn by helping others.
                         </Typography>
                       </Box>
                       <div>
@@ -133,8 +132,8 @@ function HeadSection(props) {
                             variant={isWidthUp("lg", width) ? "h6" : "body1"}
                             color="textSecondary"
                           >
-                            Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt
+                            All the experts to help you on-demand. Get paid for
+                            your know-how.
                           </Typography>
                         </Box>
                         <Button
@@ -143,9 +142,9 @@ function HeadSection(props) {
                           fullWidth
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
-                          href="https://github.com/dunky11/react-saas-template"
+                          href="https://github.com/"
                         >
-                          Download from GitHub
+                          Sign Up
                         </Button>
                       </div>
                     </Box>
@@ -153,7 +152,7 @@ function HeadSection(props) {
                   <Hidden smDown>
                     <Grid item md={6}>
                       <ZoomImage
-                        src={`${process.env.PUBLIC_URL}/images/logged_out/headerImage.jpg`}
+                        src={`https://i2.wp.com/digiday.com/wp-content/uploads/2021/01/gaming.gif?resize=1030%2C579&zoom=2&quality=100&strip=all&ssl=1`}
                         className={classes.image}
                         alt="header example"
                       />
